@@ -1,10 +1,10 @@
-﻿internal class Program {
+﻿using tabuleiro;
+
+internal class Program {
     private static void Main(string[] args) {
         Posicao P;
 
-        P = new Posicao(3, 5);
-
-        Console.WriteLine("Posição: " + P);
+        Tabuleiro tab = new Tabuleiro(8, 8);
 
         Console.ReadLine();
     }
